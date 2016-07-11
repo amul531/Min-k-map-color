@@ -1,0 +1,97 @@
+Script started on Thu 04 Dec 2014 07:34:38 PM EST
+
+[freese@Zeus finalproject]$ clisp -q -c fp.lisp
+;; Compiling file /home/freese/cs580/project/finalproject/fp.lisp ...
+;; Wrote file /home/freese/cs580/project/finalproject/fp.fas
+0 errors, 0 warnings
+[freese@Zeus finalproject]$ time clisp fp.fas
+7 *AUSTRALIA*: ((WA G) (NT B) (Q G) (NSW B) (V G) (TM R) (SA R))
+
+
+51 *50-STATES*: 
+((AL G) (AK R) (AZ B) (AR Y) (CA R) (CT B) (DE G) (DC R) (FL B) (HI R) (IL B)
+ (IN Y) (KS Y) (LA B) (ME R) (MD B) (MI R) (MN Y) (MT R) (NE B) (NH G) (NJ B)
+ (NM Y) (NY G) (NC Y) (ND B) (OR Y) (RI G) (SC G) (VT B) (WA R) (WV Y) (WY Y)
+ (TN B) (MO G) (CO G) (SD G) (PA R) (ID B) (VA G) (MA R) (WI G) (UT R) (TX G)
+ (OH G) (GA R) (OK R) (NV G) (IA R) (MS R) (KY R))
+
+
+284 COUNTRIES-MAP: 
+((Adelie Land G) (Afghanistan B) (Akrotiri and Dhekelia G) (Albania B)
+ (American Samoa R) (Amsterdam Island and Ile Saint-Paul R) (Andorra B)
+ (Angola R) (Anguilla R) (Antartica Chilena Province G) (Antigua and Barbuda R)
+ (Argentine Antarctica B) (Argentina B) (Armenia Y) (Aruba R)
+ (Ashmore and Cartier Islands R) (Australia R)
+ (Australian Antarctic Territory R) (Azores R) (Bahamas R) (Bahrain R)
+ (Baker Island and Howland Island R) (Bangladesh R) (Barbados R)
+ (Bassas da India, Europa Island, and Juan de Nova Island R) (Belarus Y)
+ (Belgium B) (Belize G) (Benin G) (Bermuda R) (Bhutan B)
+ (Bosnia and Herzegovina Y) (Botswana Y) (Bouvet Island R)
+ (British Indian Ocean Territory R) (British Virgin Islands R) (Brunei R)
+ (Bulgaria Y) (Burma B) (Burundi B) (Cambodia B) (Canada G) (Cape Verde R)
+ (Cayman Islands R) (Central African Republic Y) (Chad G) (Chile G)
+ (Christmas Island R) (Clipperton Island R) (Cocos  Islands R) (Colombia R)
+ (Comoros R) (Republic of the Congo B) (Cook Islands R) (Costa Rica R)
+ (Cote d'Ivoire B) (Croatia B) (Crozet Islands R) (Cuba R) (Curacao R)
+ (Cyprus B) (Czech Republic Y) (Denmark G) (Djibouti Y) (Dominica R)
+ (Dominican Republic R) (East Timor G) (Ecuador G) (Egypt R) (El Salvador G)
+ (Equatorial Guinea B) (Eritrea R) (Estonia R) (Falkland Islands R)
+ (Faroe Islands R) (Fiji R) (Finland G) (French Guiana R) (French Polynesia R)
+ (French Southern and Antarctic Lands R) (Gabon G) (The Gambia R)
+ (Gaza Strip B) (Georgia G) (Ghana G) (Gibraltar G) (Glorioso Islands R)
+ (Greece G) (Greenland R) (Grenada R) (French Southern and Antarctic Lands R)
+ (Guadeloupe R) (Guam R) (Guernsey R) (Guinea-Bissau G) (Guyana R) (Haiti G)
+ (Heard Island and McDonald Islands R) (Honduras B) (Hong Kong G)
+ (Howland Island and Baker Island R) (Hungary Y) (Iceland R)
+ (Amsterdam Island and Ile Saint-Paul R) (Indonesia R) (Iraq NIL) (Ireland R)
+ (Isle of Man R) (Italy B) (Jamaica R) (Japan R) (Jarvis Island R) (Jersey R)
+ (Johnston Atoll R) (Jordan Y)
+ (Bassas da India, Europa Island, and Juan de Nova Island R) (Kazakhstan Y)
+ (Kenya Y) (Kerguelen Islands R) (Kingman Reef and Palmyra Atoll R)
+ (Kiribati R) (North Korea G) (South Korea R) (Kosovo Y) (Kuwait (G B Y))
+ (Kyrgyzstan B) (Latvia G) (Lebanon B) (Lesotho G) (Liberia G) (Libya Y)
+ (Liechtenstein R) (Luxembourg Y) (Macau G) (Macquarie Island R) (Madagascar R)
+ (Madeira R) (Malawi G) (Malaysia G) (Maldives R) (Malta R)
+ (Marshall Islands R) (Martinique R) (Mauritania B) (Mauritius R) (Mayotte R)
+ (Mexico B) (Federated States of Micronesia R) (Midway Atoll R) (Moldova G)
+ (Monaco R) (Mongolia G) (Montserrat R) (Morocco B) (Mozambique Y)
+ (Nagorno-Karabakh Republic B) (Namibia G) (Nauru R) (Navassa Island R)
+ (Nepal B) (Netherlands G) (New Caledonia R) (New Zealand R) (Nicaragua G)
+ (Nigeria Y) (Niue R) (Norfolk Island R) (Northern Mariana Islands R)
+ (Norway Y) (Oman G) (Pakistan Y) (Palau R) (Palestinian territories B)
+ (Kingman Reef and Palmyra Atoll R) (Panama G) (Papua New Guinea G)
+ (Paraguay Y) (Peter I Island R) (Philippines R) (Pitcairn Islands R)
+ (Portugal G) (Puerto Rico R) (Qatar G) (Queen Maud Land G) (Reunion R)
+ (Romania B) (Ross Dependency G) (Rwanda Y) (Saint Barthelemy R)
+ (Saint Helena, Ascension and Tristan da Cunha R) (Saint Kitts and Nevis R)
+ (Saint Lucia R) (Saint Martin R) (Saint Pierre and Miquelon R)
+ (Saint Vincent and the Grenadines R) (Samoa R) (San Marino R)
+ (Sao Tome and Principe R) (Senegal Y) (Seychelles R) (Sierra Leone B)
+ (Singapore R) (Sint Maarten G) (Slovakia B) (Solomon Islands R) (Somalia B)
+ (South Georgia and the South Sandwich Islands R) (Spain R) (Sri Lanka R)
+ (Suriname B) (Svalbard R) (Swaziland G) (Switzerland Y) (Taiwan R)
+ (Tajikistan Y) (Thailand R) (Togo B) (Tokelau R) (Tonga R) (Transnistria B)
+ (Tromelin Island R) (Trinidad and Tobago R) (Tunisia G)
+ (Turks and Caicos Islands R) (Tuvalu R) (Uganda B) (United Arab Emirates B)
+ (United Kingdom G) (United States R) (United States Virgin Islands R)
+ (Uruguay R) (Vanuatu R) (Vatican City R) (Venezuela B) (Vietnam Y)
+ (Wake Island R) (Wallis and Futuna R) (West Bank R) (Western Sahara G)
+ (Yemen B) (Zimbabwe G) (Russia B) (People's Republic of China R) (Brazil G)
+ (Democratic Republic of the Congo G) (Turkey B) (Serbia G) (Germany R)
+ (Zambia B) (Ukraine R) (Sudan B) (Saudi Arabia R) (Niger B) (Israel G)
+ (Iran G) (Austria G) (Tanzania R) (Mali G) (France G) (Ethiopia G)
+ (Cameroon R) (Uzbekistan G) (South Africa R) (Guinea R) (Algeria R) (Poland G)
+ (Peru B) (Montenegro R) (Macedonia R) (Laos G) (Guatemala R) (Burkina Faso R)
+ (South Sudan R) (India G) (Bolivia R) (Azerbaijan R) (Turkmenistan R)
+ (Syria R) (Sweden R) (Somaliland R) (Slovenia R) (Lithuania R)
+ (Northern Cyprus R) (British Antarctic Territory R))
+
+2 ERRORS: ((Iraq NIL) (Kuwait (G B Y)))
+
+
+real	0m0.900s
+user	0m0.799s
+sys	0m0.094s
+[freese@Zeus finalproject]$ exit
+
+Script done on Thu 04 Dec 2014 07:35:05 PM EST
